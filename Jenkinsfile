@@ -1,10 +1,10 @@
 pipeline {
-    stages {
-        stage('Test') {
-            steps {
-                sh 'ls -l'
-                sh 'pwd'
-            }
-        }
+  stages {
+    stage('Test') {
+      steps {
+        sh "pwd"
+        sh "ls -l"
+      }
     }
+  }
 }
